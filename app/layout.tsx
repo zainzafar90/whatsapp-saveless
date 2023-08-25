@@ -31,9 +31,9 @@ export default function RootLayout({
               {children}
             </main>
             <SiteFooter className="border-t" />
+            <Analytics />
           </ThemeProvider>
         </div>
-        <Analytics />
       </body>
     </html>
   );
