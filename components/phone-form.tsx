@@ -35,7 +35,7 @@ export const PhoneForm = () => {
             </Label>
             <Input
               id="phone"
-              placeholder="+92-123-456-7890"
+              placeholder="+11234567890"
               type="text"
               autoCapitalize="none"
               autoComplete="phone"
@@ -47,6 +47,9 @@ export const PhoneForm = () => {
                 {errors.phone.message}
               </p>
             )}
+            <p className="px-1 text-xs text-gray-600 font-light">
+              Make sure to use <strong>country</strong> code before the number.
+            </p>
           </div>
           <button className={cn(buttonVariants())}>Open Chat</button>
         </div>

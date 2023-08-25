@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-send",
+  "name": "whatsapp-saveless",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "@hookform/resolvers": "^3.3.0",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/node": "20.5.6",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
