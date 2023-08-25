@@ -1,11 +1,12 @@
 "use client";
 
-import { useForm } from "react-hook-form";
 import * as z from "zod";
+import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import { cn } from "@/lib/utils";
 import { formSchema } from "@/validations/form";
+
 import { buttonVariants } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
@@ -51,7 +52,7 @@ export const PhoneForm = () => {
               Make sure to use <strong>country</strong> code before the number.
             </p>
           </div>
-          <button className={cn(buttonVariants())}>Open Chat</button>
+          <button className={cn(buttonVariants(), "mt-4")}>Open Chat</button>
         </div>
       </form>
     </>

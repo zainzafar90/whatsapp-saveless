@@ -1,6 +1,7 @@
+import Link from "next/link";
+
 import { Logo } from "@/components/logo";
 import { PhoneForm } from "@/components/phone-form";
-import Link from "next/link";
 
 export default function Home() {
   return (
