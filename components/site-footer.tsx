@@ -2,6 +2,7 @@ import * as React from "react";
 
 import { cn } from "@/lib/utils";
 import { ModeToggle } from "@/components/mode-toggle";
+import { siteConfig } from "@/config/site";
 
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
@@ -11,7 +12,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
           <p className="text-center text-sm leading-loose md:text-left">
             Built by{" "}
             <a
-              href="https://twitter.com/mzainzafar90"
+              href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
@@ -29,7 +30,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             </a>
             . The source code is available on{" "}
             <a
-              href="https://github.com/zainzafar90/whatsapp-saveless"
+              href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
