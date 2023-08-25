@@ -48,7 +48,7 @@ export const PhoneForm = () => {
                 {errors.phone.message}
               </p>
             )}
-            <p className="px-1 text-xs text-gray-600 font-light">
+            <p className="pt-2 text-xs text-foreground/75">
               Make sure to use <strong>country</strong> code before the number.
             </p>
           </div>

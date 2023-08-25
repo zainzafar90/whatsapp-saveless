@@ -5,7 +5,7 @@ import { PhoneForm } from "@/components/phone-form";
 
 export default function Home() {
   return (
-    <div className="mx-auto w-full max-w-md sm:px-4 md:w-96 md:max-w-sm md:px-0">
+    <div className="mx-auto w-full max-w-md sm:px-4 md:w-full md:max-w-md md:px-0">
       <div className="flex flex-col justify-center items-center gap-y-8">
         <Link aria-label="Home" href="/">
           <Logo className="w-16 flex-none" />
@@ -23,7 +23,7 @@ export default function Home() {
           <div className="pt-24 flex flex-col gap-y-8">
             <p className="px-8 text-center text-sm text-muted-foreground">
               This website doesn&apos;t store any data or use cookies to track
-              your information
+              your or store your personal information
             </p>
 
             <p className="px-8 text-center text-sm text-muted-foreground">
