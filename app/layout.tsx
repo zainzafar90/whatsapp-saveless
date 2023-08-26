@@ -7,7 +7,7 @@ import { Analytics } from "@/components/analytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Whatsapp Send Message",
+  title: "Send Whatsapp Message",
   description: "You can send a message to a whatsapp number without saving it.",
 };
 
